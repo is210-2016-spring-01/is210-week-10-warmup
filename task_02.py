@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-"""A small docstring"""
+"""A small docstring to show different types of bands."""
+
 
 import data
-NIGEL = {'Nigel Tufnel': ['guitar', 'vocals', 'bass', 'violin', 'harmonica','clarinet', 'keyboards', 'piano']}
-BANDS_NAMES = {}
-BAND_NAMES(NIGEL)
-print BAND_NAMES(NIGEL)
+NIGEL = data.BANDS['Spinal Tap']['Nigel Tufnel']
+
+BANDS_NAMES = data.BANDS.keys()
