@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-"""A small docstring created to add and remove keys."
+"""A small docstring created to add and remove keys."""
 
 import data
 
