@@ -3,7 +3,7 @@
 """Grades"""
 
 GRADE_DATA = {
-    'Luke Skywalker':{
+    'Luke Skywalker': {
         'math': 'B',
         'etiquette': 'B+',
         'grammar': 'B',
