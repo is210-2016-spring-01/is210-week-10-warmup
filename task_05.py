@@ -4,5 +4,4 @@
 
 import data
 
-data.SUPERHEROES['Logan']['alias'] = 'Wolverine' 
-
+data.SUPERHEROES['Logan']['alias'] = 'Wolverine'
