@@ -3,7 +3,7 @@
 """A small docstring will create a dictionary."""
 
 GRADE_DATA = {
-    'Luke Sky Walker': {
+    'Luke Skywalker': {
         'math': 'B',
         'etiquette': 'B+',
         'grammar': 'B',
