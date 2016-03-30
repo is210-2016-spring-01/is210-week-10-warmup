@@ -7,7 +7,7 @@ GRADE_DATA = {
         'math': 'B',
         'etiquette': 'B+',
         'grammar': 'B',
-        'gym': 'A',
+        'gym': 'A'
         },
     'Han Solo': {
         'math': 'A-',

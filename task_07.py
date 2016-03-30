@@ -32,6 +32,7 @@ DATA = {
     8: 4337229
 }
 
+
 def iter_dict_funky_sum(mydata):
     """ This function return sum of the values.
     This task you will use new knowledge of dictionary iteration using the
