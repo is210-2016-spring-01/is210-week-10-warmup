@@ -5,7 +5,7 @@
 import data
 
 data.BANDS.update({
-    'Buckingham Nicks':{
+    'Buckingham Nicks': {
         'Lindsey Buckingham': ['guitar', 'vocals'],
         'Stevie Nicks': ['vocals', 'tambourine']
     }
