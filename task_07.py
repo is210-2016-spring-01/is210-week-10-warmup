@@ -36,13 +36,13 @@ DATA = {
 
 def iter_dict_funky_sum(dictdata):
     """Does a handful of math things in a row.
-    
+
     Args:
         dictdata(dictionary): has all the data.
-        
+
     Returns:
         one hell of a number.
-        
+
     Example:
         >>> import task_07
         >>> task_07.iter_dict_funky_sum(task_07.DATA)
