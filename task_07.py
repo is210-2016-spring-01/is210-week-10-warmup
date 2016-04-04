@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-"""Task 07: """
+"""Task 07: declaring a dictionary, creating a function,
+return a funky total """
 
 
 DATA = {2: 7493945,
@@ -32,13 +33,15 @@ DATA = {2: 7493945,
         8: 4337229}
 
 
-def iter_dict_funky_sum(DATA):
+def iter_dict_funky_sum(data=None):
     """function that takes one dictionary argument declaring
     a running total variable, extracting key/value pairs from
     DATA simultaneously in a for loop, assigning and appending
     the product of the value minus the key to the running total
     variable and returning the total."""
-    funk = 0
+    if not data:
+        data = DATA
+    funky = 0
     for key, value in DATA.iteritems():
-        funk += value - key
-    return funk
+        funky += value - key
+    return funky
